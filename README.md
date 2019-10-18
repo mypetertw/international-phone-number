@@ -1,4 +1,5 @@
 # international-phone-number
+### Php script to make phone number as international usage.
 
 ---
 
@@ -8,26 +9,26 @@ Put `International-Phone-Number.php` to your project.
 
 ## Usage
 
-Include `HTTP_REQUEST` function and `Post` your `$data` with json
+Include `International-Phone-Number` function to your website.
 
 ```php
-$data = [
-    'id' => $id,
-    'field' => $field
-];
-$data = HTTP_REQUEST('<https-api-url>', json_encode($data));
+STR_REPLACE_INTERNATIONAL(0, '+1', '012345678', 1);
 ```
 
-Render data
+Output:
 
-```php
-echo $data['message']
+```html
++112345678
 ```
 
-Render array data
+Restore your phone number without `+`.
 
 ```php
-foreach ($data as $value) {
-    echo $value['message'];
-}
+STR_REPLACE_RESTORE('+1', 0, '012345678', 2);
+```
+
+Output:
+
+```html
+012345678
 ```
