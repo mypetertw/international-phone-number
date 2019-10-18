@@ -5,11 +5,10 @@
 
 ## Getting Started
 
-Put `International-Phone-Number.php` to your project.
+- Put `International-Phone-Number.php` to your project.
+- Include `International-Phone-Number` function to your website.
 
 ## Usage
-
-Include `International-Phone-Number` function to your website.
 
 ```php
 STR_REPLACE_INTERNATIONAL(0, '+1', '012345678', 1);
