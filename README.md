@@ -11,7 +11,7 @@
 ## Usage
 
 ```php
-STR_REPLACE_INTERNATIONAL(0, '+1', '012345678', 1);
+STR_REPLACE_INTERNATIONAL('0', '+1', '012345678', 1);
 ```
 
 Output:
@@ -23,7 +23,7 @@ Output:
 Restore your phone number without `+`.
 
 ```php
-STR_REPLACE_RESTORE('+1', 0, '012345678', 2);
+STR_REPLACE_RESTORE('+1', '0', '012345678', 2);
 ```
 
 Output:
@@ -31,3 +31,9 @@ Output:
 ```html
 012345678
 ```
+
+## Tips
+
+- `$RANGE` is the number of length to choose to replace.
+- `$NUMBER` is the phone number you want to convert.
+- You can change the length of `$RANGE` as needed.
