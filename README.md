@@ -38,4 +38,4 @@ Output:
 - `$NUMBER` is the phone number you want to convert.
 - You can change the length of `$RANGE` as needed.
 - Depending on the length `$RANGE` you decided, start from `left` to `right`.
-- Your `$NUMBER` String (Number) will change via `$FROM` to `$TO`.
+- Your `$NUMBER` (String or Number) will change via `$FROM` to `$TO`.
