@@ -34,7 +34,7 @@ Output:
 
 ## Tips
 
-- `$RANGE` is the number of length to choose to replace.
+- `$RANGE` is the number of length to replace.
 - `$NUMBER` is the phone number you want to convert.
 - You can change the length of `$RANGE` as needed.
 - Depending on the length `$RANGE` you decided, start from `left` to `right`.
